@@ -9,6 +9,7 @@ if [ -z "$TDIR" ] || [ -z "$IDEN" ]
 then
 	echo "You need to provide two arguments for this script to work."
 	echo "Usage: make-go-dir <root directory name> <identifier name>"
+	exit 1
 fi
 
 #confirming creation with the user
